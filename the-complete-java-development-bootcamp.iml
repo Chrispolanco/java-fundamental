@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/pokerito" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/section-six" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/section-seven" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
