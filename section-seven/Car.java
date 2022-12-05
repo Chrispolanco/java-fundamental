@@ -60,11 +60,20 @@ public class Car {
     }
 
     public void setParts(String[] parts) {
-        this.parts = parts;
+        this.parts = Arrays.copyOf(parts, parts.length);
     }
 
     public void drive(){
         System.out.println("\nYou bought the beautiful " + year + " " + color + " " + make + " for " + price + ".");
         System.out.println("Please drive your car to the nearest exist.");
     }
+
+    public String toString(){
+        return "Make: " + this.make + ".\n"
+                +  "Price: " + this.price + ".\n"
+                +  "Year: " + this.year + ".\n"
+                +  "Color: " + this.color + ".\n"
+                +  "Parts: " + Arrays.toString(parts) + ".\n";
+    }
+
 }
